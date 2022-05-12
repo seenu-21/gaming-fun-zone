@@ -1,0 +1,29 @@
+
+
+
+
+
+1:
+<div class="imgbox">
+        <img id="looo" src="BG2.png" alt="">
+        </div>
+        <audio loop autoplay>
+            <source src="action_time.mp3" >
+        </audio>
+
+
+
+index.css:
+in1
+.banner:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background: #9024e7;
+    transform-origin: top;
+    transform: skewX(-25deg);
+    z-index: 1;
+}
